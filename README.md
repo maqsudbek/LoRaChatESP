@@ -56,7 +56,7 @@ git pull origin dev
 
 - create a new branch for your feature from `dev` branch
 ```bash
-git checkout -b feature/your-feature-name 
+git checkout -b feature/your-feature-name dev
 ```
 
 - make changes and commit
