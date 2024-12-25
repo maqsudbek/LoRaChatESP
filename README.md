@@ -41,3 +41,44 @@ The project serves as a starting point for understanding LoRa communication and 
 - Use GitHub for collaborative development.
 - Document code changes and maintain clear commit messages.
 - Assign issues for feature development and bug fixes to ensure team collaboration.
+
+## How to Contribute
+- clone the repository
+```bash
+git clone https://github.com/maqsudbek/LoRaChatESP.git
+```
+
+- checkout to `dev` branch
+```bash
+git checkout dev
+git pull origin dev
+```
+
+- create a new branch for your feature from `dev` branch
+```bash
+git checkout -b feature/your-feature-name 
+```
+
+- make changes and commit
+```bash
+git add .
+git commit -m "your commit message"
+```
+
+- push your changes to your branch
+```bash
+git push origin feature/your-feature-name
+```
+
+- create a pull request to `dev` branch
+- assign reviewers
+- wait for approval
+- merge the pull request
+- delete the branch
+```bash
+git checkout dev
+git pull origin dev
+git branch -d feature/your-feature-name
+```
+
+---
