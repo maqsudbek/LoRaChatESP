@@ -1,3 +1,4 @@
+#ifdef SELECT_MAIN
 #include <Arduino.h>
 #include <SPI.h>
 #include <LoRa.h>
@@ -31,3 +32,4 @@ void loop() {
     
     delay(3000);
 }
+#endif
