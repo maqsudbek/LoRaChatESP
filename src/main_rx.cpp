@@ -12,11 +12,11 @@
 // LoRa Settings - MUST MATCH SENDER
 #define BAND 433E6  // Frequency in Hz
 #define TX_POWER 17
-#define SPREADING_FACTOR 12
-#define BANDWIDTH 62.5E3
-#define CODING_RATE 8
+#define SPREADING_FACTOR 10
+#define BANDWIDTH 125E3
+#define CODING_RATE 5
 #define SYNC_WORD 0xA5
-#define PREAMBLE_LENGTH 16
+#define PREAMBLE_LENGTH 8
 
 void setup() {
   Serial.begin(115200);
